@@ -1,0 +1,40 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+    Ele apresenta a visão intercalada dos arquivos, comparando as seções em porções pequenas, o que permite analisar as diferenças sem muita dificuldade.
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+    Minimiza o tempo de recuperação da informação antiga e facilita a gestão, pois não é mais necessário criar arquivos com nomes diferentes para fazer distinção entre as versões. 
+
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+    O commit manual permite mais flexibilidade para definir o intervalo em que os salvamentos ocorrerão e a quantidade de informação que será salva. Já o salvamento automático de versões não possui esse nível de granularidade. Isto é, tanto o intervalo quanto a quantidade de informação salva não pode ser alterados. O que pode acarretar perda de informação, dependendo da especificidade da informação armazendada.
+
+Repositório => Coleção de arquivos que você quer rastrear juntos.
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+    Porque os primeiros levam em conta a relação lógica entre eles, enquanto que os demais não.
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+    Git log  => mostra os commits no repositório antes do commit atual
+    Git diff => permite comparar dois arquivos para visualizar a diferença entre eles.
+    Git stat => recebe o commit id como argumento. Permite uma análise das alterações de um determinado commit. 
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+    As alterações focalizam o conjunto de arquivos envolvidos na alteração na data e hora que ocorreram. Isto confere precisão na localização e correção do erro.
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
+    Controle de versão e edição de código (via sublime)
+
+    GIT INIT - cria um repositorio manualmente (somente arquivos do diretório corrente ou subdiretórios)
+
+
+    O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+    Metadado é gerado, através de diretórios ocultos, para controlar, daquele ponto em diante, as alterações feitas no repositório.
+    Esta ação é necessária para poder gerenciar as alterações em determinado arquivo ou grupo de arquivos relacionados com mais facilidade e eficiência.
