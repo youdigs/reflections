@@ -1,0 +1,1 @@
+Quando você deve criar um repositorio remoto ao invés de manter todo o seu trabalho local?
